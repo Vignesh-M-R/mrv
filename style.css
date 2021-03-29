@@ -84,24 +84,13 @@ body {
   opacity: 0.8;
 }
 
-/* #loading {
+#loading {
+  background-color: #000000;
   width: 100%;
-  height: 100vh;
+  height: auto;
   position: fixed;
   background: #000 url("Loading.gif") no-repeat;
   z-index: 99999;
-} */
-
-#loading {
-  font-family: 'Iceland', cursive;
-  color: #fff;
-  font-size: 1.1em;
-  letter-spacing: 12px;
-  font-weight: 600;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 #return-to-top {
