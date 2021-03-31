@@ -23,7 +23,7 @@
 
 </head>
 
-<body onload="loadGif()">
+<body onload="preLoad()">
   <div id="loading"></div> 
   <div class="wrapper" id="home">
     <div class="container">
@@ -419,9 +419,9 @@
   <!-- loader -->
 
   <script>
-    var preloader = document.getElementById("loading");
-    function loadGif() {
-      preloader.style.display = "none";
+    var preloader = document.getElementById('loading');
+    function preLoad(){
+      preloader.style.display='none';
     }
   </script>
 
